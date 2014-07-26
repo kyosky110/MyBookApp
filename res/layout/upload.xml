@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+      android:background="#33ff66"
+     >
+
+    <TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choosepic"
+            android:textSize="16sp"
+            android:id="@+id/choosepicbtn"
+             android:background="#FFFFFF"
+              />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:scaleType="fitCenter"
+             android:id="@+id/displayimageview" 
+             />
+     </TableRow>
+    
+ 
+
+    <TableRow>
+
+       <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addwords"
+            android:textSize="16sp" 
+            android:id="@+id/pleaseaddwords"
+            android:background="#FFFFFF"
+            android:alpha="1.0"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:hint="@string/addwordshint"
+             android:id="@+id/user_editext"
+             android:layout_marginTop="20dp"
+             />
+ 
+</TableRow>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sure2add"
+        android:id="@+id/sureadd" 
+         android:background="#FFFFFF"
+        android:layout_marginTop="85dp"/>
+
+    
+   
+    
+
+</TableLayout>

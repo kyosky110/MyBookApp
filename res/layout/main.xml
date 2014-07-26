@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+               >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:gravity="top"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bookmarkting"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            android:text="@string/top_bookmarkting" />
+
+        <Button
+            android:id="@+id/bookhouse"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:text="@string/top_mybookhouse" />
+
+        <Button
+            android:id="@+id/top_set_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:text="@string/top_set" />
+         
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/minndle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@color/green"
+            android:dividerHeight="2dp" 
+            android:focusable="true"
+             android:clickable="true"
+             
+             >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/green"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ratingbarforuser"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            android:text="@string/low_rating" />
+
+        <Button
+            android:id="@+id/searchbook"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:text="@string/low_searchbook" />
+
+        <Button
+            android:id="@+id/uploading"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:text="@string/low_uploading" />
+    </LinearLayout>
+
+</RelativeLayout>

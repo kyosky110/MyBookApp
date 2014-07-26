@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="schooloptions">
+		<item>计算机学院</item>
+		<item>会计学院</item>
+		<item>能建学院</item>
+		<item>外语学院</item>
+		<item>金融学院</item>
+		<item>体育学院</item>
+		<item>烹饪学院</item>
+		<item>经济学院</item>
+		<item>管理学院</item>
+		<item>法学院</item>
+		<item>基础科学学院</item>
+		<item>药学院</item>
+		<item>轻工学院</item>
+		<item>研究生学院</item>
+		<item>MBA、MPA学院</item>
+		<item>国际教育学院</item>
+		<item>继续教育学院</item>
+		<item>设计艺术学院</item>
+		<item>食品工程学院</item>
+		<item>职业技术教育学院</item>
+		<item>马克思主义学院</item>
+		<item>财政与公共管理学院</item>
+		<item>英才学院</item>
+		 
+	</string-array>
+ </resources>
+
